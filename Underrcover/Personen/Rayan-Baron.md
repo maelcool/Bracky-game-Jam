@@ -1,0 +1,1 @@
+Rayan ist der lokale baron. Er hat eine Frau namens [Sylvia](Sylvia-Baronin). Hat vor 5 jahren seinem Sohn das Leben gerettet, indem er ihm sein eigens Blut transfusioniert hat. Nun sollte dieser Sohn an die Macht kommen.
