@@ -1,0 +1,71 @@
+[gd_scene format=3 uid="uid://c6ugvep7bif0y"]
+
+[ext_resource type="PackedScene" uid="uid://f4ht1cckuqdm" path="res://Scenes/house.tscn" id="1_fhp0g"]
+
+[node name="Village" type="Node2D" unique_id=1969931607]
+
+[node name="HouseArtur" parent="." unique_id=499019392 instance=ExtResource("1_fhp0g")]
+position = Vector2(739, 90)
+nameOfResdident = "Artur"
+
+[node name="Artur" type="Label" parent="HouseArtur" unique_id=1149688755]
+offset_left = -16.0
+offset_top = -88.0
+offset_right = 25.0
+offset_bottom = -65.0
+text = "Artur"
+
+[node name="Tristan" parent="." unique_id=1705819594 instance=ExtResource("1_fhp0g")]
+position = Vector2(957, 312)
+nameOfResdident = "Tristan"
+
+[node name="Tristan" type="Label" parent="Tristan" unique_id=457339774]
+offset_left = -21.0
+offset_top = -91.0
+offset_right = 33.0
+offset_bottom = -68.0
+text = "Tristan"
+
+[node name="HouseYosefina" parent="." unique_id=924328445 instance=ExtResource("1_fhp0g")]
+position = Vector2(759, 542)
+nameOfResdident = "Yosefina"
+
+[node name="Yosefina" type="Label" parent="HouseYosefina" unique_id=804580720]
+offset_left = -30.0
+offset_top = -92.0
+offset_right = 36.0
+offset_bottom = -69.0
+text = "Yosefina"
+
+[node name="HouseJuliane" parent="." unique_id=1459851557 instance=ExtResource("1_fhp0g")]
+position = Vector2(414, 519)
+nameOfResdident = "Juliana"
+
+[node name="Juliane" type="Label" parent="HouseJuliane" unique_id=1178148273]
+offset_left = -27.0
+offset_top = -91.0
+offset_right = 26.0
+offset_bottom = -68.0
+text = "Juliane"
+
+[node name="HousePlayer" parent="." unique_id=660496277 instance=ExtResource("1_fhp0g")]
+position = Vector2(226, 349)
+nameOfResdident = "Player"
+
+[node name="Player" type="Label" parent="HousePlayer" unique_id=1595773931]
+offset_left = -28.0
+offset_top = -92.0
+offset_right = 21.0
+offset_bottom = -69.0
+text = "Player"
+
+[node name="HouseLiliana" parent="." unique_id=2074587394 instance=ExtResource("1_fhp0g")]
+position = Vector2(390, 94)
+nameOfResdident = "Liliana"
+
+[node name="Liliana" type="Label" parent="HouseLiliana" unique_id=387537514]
+offset_left = -18.0
+offset_top = -88.0
+offset_right = 35.0
+offset_bottom = -65.0
+text = "Liliana"

@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://f4ht1cckuqdm"]
+
+[ext_resource type="Script" uid="uid://d3qyldu3u2c36" path="res://house.gd" id="1_okrnj"]
+[ext_resource type="Texture2D" uid="uid://nsylf2yw8ylf" path="res://icon.svg" id="2_n87ef"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ktdcf"]
+size = Vector2(130, 129)
+
+[node name="House" type="Node2D" unique_id=499019392]
+script = ExtResource("1_okrnj")
+spriteOfHouse = ExtResource("2_n87ef")
+
+[node name="HouseSprite" type="Sprite2D" parent="." unique_id=827993532]
+texture = ExtResource("2_n87ef")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=479728591]
+input_pickable = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=1426930928]
+position = Vector2(-1, -0.5)
+shape = SubResource("RectangleShape2D_ktdcf")
+
+[connection signal="input_event" from="StaticBody2D" to="." method="_on_static_body_2d_input_event"]

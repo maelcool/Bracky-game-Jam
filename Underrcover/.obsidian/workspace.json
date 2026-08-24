@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kirche.md",
+                "file": "Story.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Kirche"
+              "title": "Story"
             }
           }
         ]
@@ -206,9 +206,9 @@
   },
   "active": "457a32f57b531111",
   "lastOpenFiles": [
+    "Kirche.md",
     "Ideen-Sammlung.md",
     "Story.md",
-    "Kirche.md",
     "Zwillings-Orden.md",
     "Personen/Rayan-Baron.md",
     "Personen/Sylvia-Baronin.md",
